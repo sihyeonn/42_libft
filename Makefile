@@ -90,6 +90,7 @@ C_SRCS	=	ft_memset.c    \
 			ft_linenew.c		\
 			ft_lineadd.c		\
 			ft_strset.c		\
+			ft_strndup_over.c	\
 			get_next_line.c
 C_OBJS	=	$(addprefix $(OBJS)/, $(notdir ${C_SRCS:.c=.o}))
 NAME	=	libft.a

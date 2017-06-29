@@ -104,4 +104,5 @@ typedef struct			s_line
 t_line				*ft_linenew(int fd, int size);
 int				ft_lineadd(t_line **head, t_line *new);
 void				ft_strset(char **str, char c);
+char				*ft_strndup_over(const char *s1, int n);
 #endif
